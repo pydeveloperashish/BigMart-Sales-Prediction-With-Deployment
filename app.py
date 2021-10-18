@@ -32,7 +32,7 @@ def result():
 
     X_std= sc.transform(X)
 
-    model_path=r'D:\BigMart-Sales-Prediction-using-Machine-Learning-main (1)\BigMart-Sales-Prediction-using-Machine-Learning-main\models\rf.sav'
+    model_path=r'D:\BigMart-Sales-Prediction-using-Machine-Learning-main (1)\BigMart-Sales-Prediction-using-Machine-Learning-main\models\lr.sav'
 
     model= joblib.load(model_path)
 
